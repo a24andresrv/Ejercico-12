@@ -1,5 +1,6 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -7,50 +8,61 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    align-items: center;
     height: 100%;
     width: 100%;
+
 }
 article{
     border-style: solid;
     border-width: 10px;
-    border-color: brown;
+    border-color: #8A3200;
     width: 60%;
     border-radius: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 80%;
+    text-align: center;
+
+}
+h1{
+    font-size: 40px;
+    display: flex;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+}
+span{
+    color: #8A3200;
 }
 img{
     border-style: solid;
     border-width: 10px;
-    border-color: brown;
-
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
+    border-color: #8A3200;
+    border-radius: 50%;
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 ul li{
     list-style: none;
 }
 header nav{
-    width: 0px;
-    height: 0px;
+    display: none;
 }
 footer nav ul{
     display: flex;
     flex-direction: row;
-}
-img{
-    width: 40%;
-}
-header img{
-    border-style: solid;
-    border-width: 10px;
-    border:20px;
-    border-color: brown;
+    width: 180px;
+    justify-content: space-around;
+    padding: 0;
 }
 footer nav li a img{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 5px;
 }
