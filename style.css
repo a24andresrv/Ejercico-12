@@ -88,3 +88,54 @@ footer nav li a img{
     padding: 0em;
     background-color: none;
 }
+footer nav li a img:hover{
+    border-color:#d1cdcdad ;
+}
+@media only screen and (min-device-width:650px){
+    article{
+        border-color: black;
+        border-style: solid;
+        border-width: 10px;
+        border-color: #8A3200;
+        width: 600px;
+        height: 350px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        text-align: center;
+     
+        justify-content: center;
+        justify-content: space-around;
+        padding: 1em;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+    h1{
+        font-size: 20px;
+        display: flex;
+        width: 50%;
+    }
+    header nav{
+        display: flex;
+        justify-self: flex-end;
+        justify-content: flex-end;
+        width: 250px;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    footer nav li{
+        padding: 0em;
+        background-color: none;
+    }
+}
